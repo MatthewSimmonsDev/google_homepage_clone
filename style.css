@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 120%;
+  margin-top: 1em;
+}
+
+.left-nav a {
+  margin-left: 1.2em;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.right-nav a {
+  padding-right: 1em;
+}
+
+.right-images {
+}
+
+.right-images a img {
+  width: 32px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-top: 15em;
+}
+
+#searchbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#searchbar .bar {
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 3em;
+  width: 40em;
+}
+
+#searchbar .bar .icons-inside {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+#searchbar .bar .icons-inside input {
+  width: 200%;
+  font-size: 150%;
+  padding-left: 1em;
+}
+
+#searchbar .bar .icons-inside img {
+  max-width: 32px;
+}
+
+#searchbar .bar .icons-inside input {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons button {
+  width: 10em;
+  height: 3em;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#buttons .divider {
+  width: 1em;
+  height: auto;
+}
+
+.bottom-divider {
+  width: auto;
+  height: 22em;
+}
+
+#foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(30, 30, 30);
+  padding-bottom: 1.45em;
+  padding-top: 1.45em;
+}
+
+#foot .left-footer a,
+#foot .right-footer a {
+  justify-self: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
